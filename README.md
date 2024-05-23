@@ -1,6 +1,17 @@
 # React + Vite Weather APP
 
-##Vite
+## Overview
+This Weather App allows users to check the weather in any city they choose. It utilizes the OpenWeatherMap API to fetch weather data.
+
+## Technologies
+- HTML
+- CSS
+- React JS
+
+## Deployment
+This app is deployed and can be accessed [here](https://agus-magallanez-weather-app.netlify.app/).
+
+## Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
