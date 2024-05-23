@@ -9,7 +9,7 @@ This Weather App allows users to check the weather in any city they choose. It u
 - React JS
 
 ## Deployment
-This app is deployed and can be accessed [here](https://agus-magallanez-weather-app.netlify.app/).
+This app is deployed and can be accessed [here](https://agus-magallanez-weather-app-react.netlify.app/).
 
 ## Vite
 
