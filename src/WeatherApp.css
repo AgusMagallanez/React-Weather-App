@@ -1,0 +1,70 @@
+.weather-app__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5% 3%;
+  padding: 20px;
+  text-align: center;
+  background-color: #0000002b;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px #2f2f2f;
+}
+
+h1 {
+  font-size: 42px;
+  margin: 0;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.weather-app__form {
+  margin: 20px 0;
+}
+
+.weather-app__search-input,
+.weather-app__submit-input {
+  border: solid 1px transparent;
+  border-radius: 10px;
+  font-size: 24px;
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+}
+
+.weather-app__submit-input {
+  background-color: #247ba0;
+  color: #fff;
+  cursor: pointer;
+  transition: all 1s ease;
+  margin-top: 15px;
+}
+.weather-app__submit-input:hover {
+  background-color: #1d3461;
+  border: solid 1px #fff;
+}
+
+.weather-app__data-conatiner {
+  padding: 20px;
+}
+.weather-app__data-conatiner > h3,
+p {
+  margin: 0;
+  font-size: 28px;
+}
+
+.weather-app__data-conatiner > img {
+  width: 120px;
+}
+
+@media (min-width: 1024px) {
+  .weather-app__container {
+    margin: 10% auto;
+    max-width: 60%;
+  }
+  h1 {
+    font-size: 48px;
+  }
+  .weather-app__data-conatiner > h3,
+  p {
+    font-size: 38px;
+  }
+}
